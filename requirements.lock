@@ -10,3 +10,33 @@
 #   universal: false
 
 -e file:.
+contourpy==1.3.1
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+defusedxml==0.7.1
+    # via fpdf2
+fonttools==4.55.1
+    # via fpdf2
+    # via matplotlib
+fpdf2==2.8.1
+    # via tinyvdiff-demo
+kiwisolver==1.4.7
+    # via matplotlib
+matplotlib==3.9.3
+    # via tinyvdiff-demo
+numpy==2.1.3
+    # via contourpy
+    # via matplotlib
+    # via tinyvdiff-demo
+packaging==24.2
+    # via matplotlib
+pillow==11.0.0
+    # via fpdf2
+    # via matplotlib
+pyparsing==3.2.0
+    # via matplotlib
+python-dateutil==2.9.0.post0
+    # via matplotlib
+six==1.16.0
+    # via python-dateutil
