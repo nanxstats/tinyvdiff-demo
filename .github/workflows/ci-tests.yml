@@ -24,8 +24,8 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install pdf2svg
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pdf2svg
+          brew update
+          brew install pdf2svg
       - name: Install dependencies
         run: |
           # we are using the -e flag, so that code cov finds the source.
