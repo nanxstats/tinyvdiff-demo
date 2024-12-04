@@ -10,6 +10,7 @@ def generate_plot(output_file):
     y = np.sin(x)
 
     plt.figure(figsize=(6, 4))
+    plt.rcParams["pdf.use14corefonts"] = True
     plt.plot(x, y, label="Sine Wave")
     plt.title("Example Plot")
     plt.xlabel("Angle [rad]")
