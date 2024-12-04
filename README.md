@@ -1,3 +1,3 @@
 # tinyvdiff-demo
 
-Describe your project here.
+Demo project using tinyvdiff for visual regression testing.
