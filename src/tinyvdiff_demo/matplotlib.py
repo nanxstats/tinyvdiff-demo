@@ -9,8 +9,6 @@ def generate_plot(output_file):
     x = np.linspace(0, 2 * np.pi, 100)
     y = np.sin(x)
 
-    plt.rcParams["pdf.fonttype"] = 42
-    plt.rcParams["ps.fonttype"] = 42
     plt.figure(figsize=(6, 4))
     plt.plot(x, y, label="Sine Wave")
     plt.title("Example Plot")
